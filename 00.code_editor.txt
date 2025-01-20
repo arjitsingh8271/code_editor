@@ -1,4 +1,15 @@
 $ npm init -y
+Windows Error: npm: file ... cannot be loaded brcause running script is disable on this system ...
+Solution
+	1. Open Power Sell
+		> Get-ExecutionPolicy
+		...
+		> Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+		(y): y
+
+
+
+$ npm init -y
 $ npm i express socket.io
 $ npm i -D nodemon
 
