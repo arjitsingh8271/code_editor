@@ -1,0 +1,18 @@
+$ npm init -y
+$ npm i socket.io
+$ npm i -D nodemon
+
+frontend/
+	$ npm create vite@latest .
+	y
+	> React
+	> JavaScript
+	$ npm install
+	$ npm i socket.io-client
+	$ npm run dev
+		http://localhost:5173/		(open in browser)
+		
+	$ npm i @monaco-editor/react
+	$ npm i axios
+
+$ npm run dev
