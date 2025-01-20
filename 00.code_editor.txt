@@ -1,5 +1,5 @@
 $ npm init -y
-$ npm i socket.io
+$ npm i express socket.io
 $ npm i -D nodemon
 
 frontend/
@@ -13,6 +13,9 @@ frontend/
 		http://localhost:5173/		(open in browser)
 		
 	$ npm i @monaco-editor/react
+	$ npm i axios
+	
+backend/
 	$ npm i axios
 
 $ npm run dev
